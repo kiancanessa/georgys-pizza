@@ -38,24 +38,6 @@ Abre tu navegador en: **http://localhost:3000**
 
 ---
 
-## ✏️ ¿Cómo personalizar?
-
-### Datos del negocio y menú
-Edita **`src/data/site.ts`** — todo está centralizado ahí:
-- Nombre, teléfono, WhatsApp, dirección, horario
-- Redes sociales
-- Lista de pizzas (agrega, quita o cambia precios)
-
-### Colores
-Edita **`tailwind.config.ts`** en la sección `colors`:
-```ts
-ember:  "#E8300A",   // rojo principal
-gold:   "#F5A421",   // dorado/acentos
-cream:  "#F7EDE0",   // texto claro
-```
-
----
-
 ## 📁 Estructura del proyecto
 
 ```
@@ -81,23 +63,6 @@ georgys-next/
 ├── package.json
 └── tsconfig.json
 ```
-
----
-
-## 🌐 Deploy (poner en línea gratis)
-
-### Opción 1: Vercel (recomendado, 100% gratis)
-1. Sube el proyecto a GitHub
-2. Ve a https://vercel.com
-3. Conecta tu repositorio → Deploy
-4. Obtienes URL pública en minutos
-
-### Opción 2: Render.com
-1. Sube a GitHub
-2. New Web Service → Node → Build: `npm run build` → Start: `npm start`
-
----
-
 ## 📦 Stack
 
 | Tecnología       | Versión | Para qué sirve                    |
@@ -111,3 +76,5 @@ georgys-next/
 ---
 
 Desarrollado en Rosarito, Baja California 🇲🇽
+
+by Kian Saavedra Canessa
