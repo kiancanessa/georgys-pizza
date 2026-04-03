@@ -24,7 +24,7 @@ function PlatilloCard({ p, index }: { p: Platillo; index: number }) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.4, delay: index * 0.06 }}
-      className="group bg-cream border border-gold/20 rounded-sm overflow-hidden flex flex-col hover:shadow-warm-lg hover:-translate-y-1 transition-all duration-300 relative"
+      className="group bg-cream border border-gold/20 rounded-sm overflow-hidden flex flex-col hover:shadow-warm-lg hover:-translate-y-1 transition-all duration-300 relative text-ink"
     >
       {/* Foto real */}
       {p.foto && (

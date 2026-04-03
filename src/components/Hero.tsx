@@ -25,7 +25,7 @@ export default function Hero() {
       />
 
       {/* Overlay: más oscuro arriba (texto), abre en el centro (logo), oscuro abajo */}
-      <div className="absolute inset-0 bg-gradient-to-b from-wood2/88 via-wood2/30 to-wood2/85" />
+      <div className="absolute inset-0 bg-gradient-to-b from-wood2/95 via-wood2/10 to-wood2/90" />
       {/* Laterales suaves */}
       <div className="absolute inset-0 bg-gradient-to-r from-wood2/40 via-transparent to-wood2/40" />
       {/* Grain */}
@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="absolute bottom-0 inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-gold/55 to-transparent" />
 
       {/* ══ ZONA SUPERIOR — Slogan centrado, arriba del logo ══ */}
-      <div className="relative z-10 flex flex-col items-center text-center pt-28 pb-4 px-6">
+      <div className="relative z-10 flex flex-col items-center text-center pt-20 pb-2 px-6">
 
         {/* Eyebrow */}
         <p className="font-sans text-[10px] tracking-[.35em] uppercase text-gold/70 mb-5
