@@ -6,7 +6,7 @@ import Image from "next/image";
 const stats = [
   { value: "100%", label: "Artesanal" },
   { value: "24h",  label: "Fermentación" },
-  { value: "450°", label: "Horno Leña" },
+  { value: "450°", label: "Horno de Piedra" },
   { value: "♡",    label: "Con Amor" },
 ];
 
@@ -51,11 +51,11 @@ export default function About() {
             <div className="space-y-4 font-sans text-sm text-parchment/60 leading-relaxed tracking-wide">
               <p>
                 Georgy&apos;s nació del sueño de traer la auténtica tradición italiana a Rosarito.
-                Con un horno de leña que alcanza los 450°, cada pizza y pasta que sale de nuestra
-                cocina lleva horas de preparación y años de amor por la gastronomía italiana.
+                Con un horno de piedra, cada pizza y pasta que sale de nuestra
+                cocina lleva horas de preparación y amor por la gastronomía italiana.
               </p>
               <p>
-                Usamos masa madre fermentada por 24 horas, salsa de tomate San Marzano y los
+                Usamos masa madre artesanal, salsa de tomate fresca y los
                 mejores ingredientes de Baja California — porque aquí la calidad no es una opción,
                 es nuestra promesa.
               </p>

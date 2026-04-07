@@ -4,7 +4,7 @@ const items = [
   `🕐 ${site.horario}`,
   `📍 Rosarito, B.C.`,
   `📞 ${site.telefono}`,
-  `🔥 Horno de Leña`,
+  `🔥 Horno de Piedra`,
   `🌾 Masa Artesanal`,
   `🍝 Pizza & Pasta`,
 ];

@@ -43,7 +43,7 @@ export default function Hero() {
         <p className="font-sans text-[10px] tracking-[.35em] uppercase text-gold/70 mb-5
                        opacity-0 animate-fade-up"
            style={{ animationDelay: ".1s", animationFillMode: "forwards" }}>
-          📍 Rosarito, B.C. · Horno de Leña
+          📍 Rosarito, B.C. · Horno de Piedra
         </p>
 
         {/* Slogan — 3 líneas apiladas */}

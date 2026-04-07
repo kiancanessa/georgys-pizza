@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Georgy's Pizza y Pastas | Rosarito, Baja California",
-  description: "Pizza y pasta artesanal en horno de leña. La tradición italiana con el corazón de Baja California. Rosarito, México.",
-  keywords: ["pizza", "pasta", "Rosarito", "Baja California", "restaurante italiano", "horno de leña"],
+  description: "Pizza y pasta artesanal en horno de piedra. La tradición italiana con el corazón de Baja California. Rosarito, México.",
+  keywords: ["pizza", "pasta", "Rosarito", "Baja California", "restaurante italiano", "horno de piedra"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
