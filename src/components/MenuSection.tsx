@@ -111,7 +111,7 @@ export default function MenuSection() {
             El Menú
           </h2>
           <p className="font-sans text-xs tracking-[.18em] uppercase text-muted mt-3">
-            Horno de leña · Ingredientes frescos · Recetas de familia
+            Horno de Piedra · Ingredientes frescos · Recetas de familia
           </p>
         </motion.div>
 
