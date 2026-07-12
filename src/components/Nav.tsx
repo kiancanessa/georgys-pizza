@@ -53,7 +53,7 @@ export default function Nav() {
           {/* Desktop links */}
           <ul className="hidden md:flex items-center gap-7">
             {links.map((l) => (
-              <li key={l.href}>
+              <li key={l.label}>
                 <a href={l.href}
                   className="font-sans text-xs tracking-[.18em] uppercase text-parchment/70 hover:text-gold transition-colors duration-200">
                   {l.label}
@@ -88,7 +88,7 @@ export default function Nav() {
       }`}>
         <Image src="/logo.png" alt="Logo" width={80} height={80} className="rounded-full mb-2" />
         {links.map((l) => (
-          <a key={l.href} href={l.href} onClick={() => setOpen(false)}
+          <a key={l.label} href={l.href} onClick={() => setOpen(false)}
             className="font-display text-4xl italic text-parchment/80 hover:text-gold transition-colors">
             {l.label}
           </a>
